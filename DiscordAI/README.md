@@ -175,17 +175,6 @@
 
 3. Run `python3 main.py` or `python main.py` to start the bot
 
-## Step 3: Run the bot with Docker
-
-1. Build the Docker image & Run the Docker container `docker compose up -d`
-
-2. Inspect whether the bot works well `docker logs -t chatgpt-discord-bot`
-
-   ### Stop the bot:
-
-   * `docker ps` to see the list of running services
-   * `docker stop <BOT CONTAINER ID>` to stop the running bot
-
 ### Have a good chat!
 ## Optional: Disable logging
 
